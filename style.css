@@ -19,7 +19,7 @@ nav a:hover {
   box-shadow: 0px 0px 5px color(srgb red rgb(253, 109, 109) rgba(249, 90, 255, 0.493));
   size: 15px 15px;
   filter:drop-shadow(grey);
-  scale:105;
+  scale:105%;
 }
 .banner {
   padding: 10px;
@@ -40,20 +40,6 @@ nav a {
   text-decoration: none;
   color: rgb(22, 162, 167);
   float: right;
-}
-
-.navbar::after {
-  content: "";
-  display: block;
-  padding-bottom: 0, 25rem;
-  border-bottom: 0.1rem solid var(--utama);
-  transform: scaleX(0);
-  transform: 0.3s linear;
-  transform-origin: 0 0;
-}
-
-.navbar:hover::after {
-  transform: scaleX(0.4);
 }
 
 img {
