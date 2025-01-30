@@ -15,6 +15,11 @@ nav a {
 }
 nav a:hover {
   background-color: rgba(158, 219, 255, 0.87);
+  transition:0.5s;
+  box-shadow: 0px 0px 5px color(srgb red rgb(253, 109, 109) rgba(249, 90, 255, 0.493));
+  size: 15px 15px;
+  filter:drop-shadow(grey);
+  scale:105;
 }
 .banner {
   padding: 10px;
